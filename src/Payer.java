@@ -2,8 +2,6 @@ public class Payer {
     String surname;
     String name;
     String address;
-    String address;
-    String address;
     String cardNumber;
 
     public Payer(String surname, String name, String address, String cardNumber) {
