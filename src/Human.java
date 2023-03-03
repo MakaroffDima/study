@@ -5,14 +5,14 @@ public class Human {
     public Human(String name, int age) {
         this.name = name;
         this.age = age;
-        this.weight = 80;
+        this.weight = 65;
     }
 
     public Human(String name, String address) {
         this.name = name;
         this.address = address;
-        this.weight = 80;
-        this.age = 35;
+        this.weight = 65;
+        this.age = 27;
     }
 
     public Human(String name, int age, int weight) {
@@ -22,7 +22,7 @@ public class Human {
 
     public Human(String name, int age, String work) {
         this(name, age);
-        this.weight = 80;
+        this.weight = 65;
         this.work = work;
     }
 
