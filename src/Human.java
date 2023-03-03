@@ -11,7 +11,7 @@ public class Human {
     public Human(String name, String address) {
         this.name = name;
         this.address = address;
-        this.weight = 65;
+        this.weight = 80;
         this.age = 27;
     }
 
@@ -22,7 +22,7 @@ public class Human {
 
     public Human(String name, int age, String work) {
         this(name, age);
-        this.weight = 65;
+        this.weight = 80;
         this.work = work;
     }
 
